@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add element-plus
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.1.4.0_x64__8wekyb3d8bbwe;C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenJDK\jdk-17\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\coding\laragon\bin\php\php-7.4.19-nts-Win32-vc15-x64;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\cecep\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\cecep\AppData\Roaming\Composer\vendor\bin;D:\coding\laragon\bin;D:\coding\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;D:\coding\laragon\bin\composer;D:\coding\laragon\bin\git\bin;D:\coding\laragon\bin\git\cmd;D:\coding\laragon\bin\git\mingw64\bin;D:\coding\laragon\bin\git\usr\bin;D:\coding\laragon\bin\laragon\utils;D:\coding\laragon\bin\mysql\mysql-8.0.25-winx64\bin;D:\coding\laragon\bin\nginx\nginx-1.20.0;D:\coding\laragon\bin\ngrok;D:\coding\laragon\bin\nodejs\node-v14;D:\coding\laragon\bin\notepad++;D:\coding\laragon\bin\php\php-7.4.22-Win32-vc15-x64;D:\coding\laragon\bin\postgresql\postgresql-12.7-2\bin;D:\coding\laragon\bin\redis\redis-x64-3.2.100;D:\coding\laragon\bin\telnet;D:\coding\laragon\usr\bin;C:\Users\cecep\AppData\Local\Microsoft\WindowsApps;C:\Users\cecep\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cecep\go\bin;C:\Users\cecep\go\bin;C:\Program Files (x86)\Nmap;C:\Users\cecep\AppData\Roaming\npm;C:\Program Files\Oracle\VirtualBox;C:\Users\cecep\go\bin;C:\Users\cecep\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\coding\javascript\learnvue3\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "learnvue3",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.16",
+      "vue-router": "^4.0.11"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.9.3",
+      "autoprefixer": "^10.3.7",
+      "postcss": "^8.3.9",
+      "tailwindcss": "^2.2.16",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,12 +1,19 @@
 
 <template>
-  <div class="flex">
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
-  </div>
+  <Navbar></Navbar>
   <router-view />
 </template>
 
 <script>
+import Navbar from "./components/Navbar.vue";
+
+export default {
+  components: { Navbar },
+  setup() {
+
+  }
+}
+
+
 </script>
 
